@@ -7,9 +7,10 @@
         Teach me about Python.
         assistant: 
         Python is a programming language developed in 1989 by by Guido van Rossum.
+        Python is a widely used programming language known for its readability and versatility.
         
         Future replies:
-        The response was only a sentence so limit all future replies to a single sentence."
+        The response was two sentences so limit all future replies to two sentences."
     },   
     {
         "role": "user",

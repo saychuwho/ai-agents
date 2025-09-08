@@ -1,7 +1,7 @@
 [
     {
         "role": "system",
-        "content": "Summarize all replies into 10 or fewer words."  
+        "content": "Summarize all replies into 20 or fewer words."  
     },
     {
         "role": "user",
@@ -11,7 +11,7 @@
 [
     {
         "role": "system",
-        "content": "Summarize all replies into 3 bullet points."
+        "content": "Summarize all replies into 5 bullet points."
     },
     {
         "role": "user",

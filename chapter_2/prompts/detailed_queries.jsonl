@@ -5,7 +5,7 @@
     },
     {
         "role": "user",
-        "content": "What is an agent?"
+        "content": "What is a function?"
     }    
 ]
 [
@@ -15,6 +15,6 @@
     },
     {
         "role": "user",
-        "content": "What is a GPT Agent?"
+        "content": "What is a function in Python?"
     }    
 ]

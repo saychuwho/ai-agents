@@ -21,8 +21,18 @@ def ask_chatgpt(user_message):
         )       
     return response.choices[0].message.content
 
+def ask_gpt_5(user_message):
+    response = client.responses.create(
+        model="gpt-5",
+        input=user_message,
+    )
+    return response.output_text
 
 # Example usage
-user = "What is the capital of France?"
-response = ask_chatgpt(user)
+# user = "What is the capital of France?"
+# response = ask_chatgpt(user)
+
+# Practice 1
+user = "Explain the capital of France."
+response = ask_gpt_5(user)
 print(response)
